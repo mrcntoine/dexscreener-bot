@@ -1,0 +1,25 @@
+{
+  "dexscreenerApiUrl": "https://api.dexscreener.com/latest/dex/tokens",
+  "pollIntervalMs": 60000,
+
+  "priceDropThreshold": 0.90,
+  "pricePumpThreshold": 1.50,
+  "observationWindow": 5,
+
+  "filters": {
+    "chainsAllowed": ["ETH", "BSC"],
+    "minLiquidity": 10000,
+    "minVolume24h": 5000
+  },
+
+  "blacklistTokens": ["0x111...", "0x222..."],
+  "blacklistDevs": ["0xdev111...", "0xdev222..."],
+
+  "pocketUniverseApiUrl": "https://api.pocketuniverse.com/check-volume",
+  "rugcheckApiUrl": "http://api.rugcheck.xyz/v1/check",
+
+  "telegramBotToken": "1234567890:YOUR_TELEGRAM_BOT_TOKEN",
+  "telegramChatId": "-100123456789", 
+  
+  "bonkBotUsername": "BonkBot"
+}
